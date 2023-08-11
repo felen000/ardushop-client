@@ -1,0 +1,127 @@
+html,body {
+	height: 100%;
+}
+
+.main-wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+main {
+	flex: 1 1 auto;
+}
+
+h2 {
+	margin-bottom: 30px;
+}
+
+h3{
+	margin: 0;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+section {
+	padding: 25px 0;
+}
+
+section section{
+	padding: 0;
+}
+
+[class^="form"] {
+	user-select: none;
+}
+
+/* Registration */
+.wrapper {
+	height: 100vh;
+}
+
+/* Logo */
+.logo {
+	width: 40px;
+}
+
+/* Bestsellers */
+.card-img-top{
+	width: 100%;
+	max-height: 250px;
+	object-fit: cover;
+}
+.carousel-control-next-icon {
+	background-image: url(../images/carousel/free-icon-right-arrow-angle-54833.png) ;
+}
+.carousel-control-prev-icon {
+	background-image: url(../images/carousel/left-arrow.png);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	width: 30px;
+}
+
+.carousel-control-prev{
+	left: -30px;
+}
+.carousel-control-next{
+	right: -30px;
+}
+
+@media (max-width:576px) {
+	.carousel-container {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+/* Goods */
+
+.goods .card-img-top {
+	height: 150px;
+}
+
+.price {
+	font-size: 20px;
+	font-style: italic;
+}
+
+.badge {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* Footer */
+.footer {
+	padding: 15px 0;
+}
+
+.footer .col:last-child {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+
+/* Product */
+
+.product-img {
+	width: 100%;
+	max-height: 220px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+/* Profile */
+
+.profile-picture {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+}

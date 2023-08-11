@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+	--grey: #f8f9fa;
+	--blue: #0d6efd
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.main-wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+
+}
+
+#app {
+	height: 100%;
+}
+
+main {
+	flex: 1 1 auto;
+}
+
+h2, h3, p {
+	font-weight: normal;
+	margin: 0;
+}
+
+section {
+	padding: 25px 0;
+}
+
+section section {
+	padding: 0;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+[class^='form'] {
+	user-select: none;
+}
+
+input {
+	cursor: pointer;
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.logo {
+	width: 40px;
+}
+
+.hidden {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
